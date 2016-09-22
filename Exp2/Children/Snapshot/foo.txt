@@ -1,1 +1,17 @@
 
+The file Exp2Children_snapshot.txt contains the following columns.
+PartID  Unique ID for each participant
+Trial	  Progressive trial number
+VerbType  Whether the verb was Predictive or Non-Predictive
+Item  Unique ID for each item
+Age	 Participant's age in months 
+Gender  Participant's gender (male/female)
+EV	Participant's productive vocabulary score (raw; see published paper for details)
+Distractor	A binary variable which equals one if the participant looked at the Distarctor object during the analysis time window (see Readme.txt)
+Subject As above, but for looks to the Subject
+Agent	As above, but for looks to the Agent
+Patient As above, but for looks to the Patient	
+PC	Contrast-coded numerical predictor for Verb Type
+PCC	As above, but centred
+AC	Centred Age
+EVC	Centred EV
