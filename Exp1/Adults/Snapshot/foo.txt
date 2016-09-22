@@ -1,1 +1,16 @@
-
+The file Exp1Adults_snapshot.txt contains the following columns.
+PartID  Unique ID for each participant
+Trial	  Progressive trial number
+Length  Whether the sentence was long or short
+VerbType  Whether the verb was Predictive or Non-Predictive
+Item  Unique ID for each item
+Age	 Participant's age in years
+Gender  Participant's gender (male/female)
+Distractor	A binary variable which equals one if the participant looked at the Distarctor object during the analysis time window (see Readme.txt)
+Subject As above, but for looks to the Subject
+Agent	As above, but for looks to the Agent
+Patient As above, but for looks to the Patient	
+LC	Contrast-coded numerical predictor for Length
+LCC	As above, but centred
+PC	Contrast-coded numerical predictor for Verb Type
+PCC	As above, but centred
