@@ -1,1 +1,18 @@
+The file Exp1Children_GrowthCurve.txt contains the following columns.
+PartID	Unique ID for each participant
+VerbType	Factor coding whether the verb was Predictive or Non-Predictive
+Length	Factor coding whether the sentence was short or long
+TimeVE	Time (with respect to verb offset, in ms)
+ot1	first orthogonal polinomial (linear time term)
+ot2	second orthogonal polinomial (quadratic time term)
+EV	Participant's productive vocabulary score (raw; see published paper for details)
+Age Participant's age in months
+Distractor	Proportion of fixations (averaged over items) to the Distractor Object
+Subject	Same as above, but for Subject
+Agent	Same as above, but for Agent
+Patient	same as above, but for Patient
+PC	Contrast-coded numerical predictor for VerbType
+PCC	As above, but centred
+LC	Contrast-coded numerical predictor for Length
+LCC	As above, but centred
 
